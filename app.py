@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly_express as plt
 
-car_data = pd.read_csv(r"C:\Users\USUARIO\Desktop\ESCRITORIO\CURSO DE TRIPLETEN\PROYECTO PYTHON SPRINT 6\PROJECT6\vehicles_us.csv")
+car_data = pd.read_csv(r"vehicles_us.csv")
 
 st.header("Proyecto 6 - Sprint 6")
 
